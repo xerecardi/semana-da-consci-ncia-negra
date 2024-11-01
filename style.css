@@ -1,7 +1,26 @@
 body {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
-}body {
-    color: white;
-    background-color: black;
+}
+
+section {
+    background: rgb(35, 11, 216);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
